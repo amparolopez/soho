@@ -1,3 +1,4 @@
+import { isTrivialHref } from "@restart/ui/esm/Anchor"
 import React from "react"
 
 
@@ -6,22 +7,19 @@ const Footer = () => {
     <>
     <div>
       <footer>
-      <div className="footerLinks">
-        </div>
         <div className="copyright">
-          <h3>  &copy; 2017 </h3> 
-          <p> SOHO internet+humana</p> 
+          <p> &copy; 2017 <span>SOHO internet+humana</span> </p> 
         </div>  
         <div className="linksfooter">
-          <p> Visítanos</p> 
-          <p> Escríbenos</p> 
-          <p> Llámanos </p> 
+          <a> Visítanos</a> 
+          <a> Escríbenos</a> 
+          <a> Llámanos </a> 
         </div> 
         <div className="social">
-          <p> Facebook</p> 
-          <p> Twitter</p> 
-          <p> LinkedIn </p> 
-          <p> YouTube </p> 
+          <p>Facebook</p> 
+          <p>Twitter</p> 
+          <p>LinkedIn </p> 
+          <p> ouTube </p> 
         </div>  
       </footer>
     </div>
