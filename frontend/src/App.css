@@ -10,8 +10,6 @@ Navbar {
   align-items: flex-end;
 }
 
-header {
-}
 .logo {
   width: 2.8%;
   margin: 20px;
@@ -160,7 +158,6 @@ span {
 
 footer {
   background-color: black;
-  color: whitesmoke;
   height: 13vh;
   display: flex;
   flex-direction: row;

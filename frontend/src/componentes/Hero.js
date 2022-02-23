@@ -15,22 +15,22 @@ const Hero = () => {
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav>
                   <Nav.Link color="white" href="#home" className="active">
-                    <span>Inicio</span>
+                    <span>inicio</span>
                   </Nav.Link>
                   <Nav.Link href="#nosotos">
-                    <span>Nosotros</span>
+                    <span>nosotros</span>
                   </Nav.Link>
                   <Nav.Link href="#servicios">
-                    <span>Servicios</span>
+                    <span>servicios</span>
                   </Nav.Link>
                   <Nav.Link href="#casosdexito">
-                    <span>Casos de éxito</span>
+                    <span>casos de éxito</span>
                   </Nav.Link>
                   <Nav.Link href="#unete">
                     <span>únete al equipo</span>
                   </Nav.Link>
                   <Nav.Link href="#contacto">
-                    <span>Contacto</span>
+                    <span>contacto</span>
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
