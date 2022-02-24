@@ -5,6 +5,7 @@ const Clients = () => {
 <>
 <div className="contenedor-principal">
         <h2 className="text-white">Lo que dicen nuestros clientes</h2>
+        <h2 className="text-sub">_________</h2>
         <div className="contenedor-img "> 
             <div className="bg-blue text-img">
                 <span className="clientText">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ab dignissimos, consequatur temporibus culpa aliquam unde"</span>

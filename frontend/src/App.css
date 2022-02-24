@@ -19,8 +19,8 @@ Navbar {
 }
 
 .logo {
-  width: 2.8%;
-  margin: 20px;
+  width: 4%;
+  margin: 20px 2px 2px -500px;
 }
 .nav-light {
   display: flex;
@@ -28,6 +28,7 @@ Navbar {
 }
 span {
   color: white;
+  font-size: 1.5rem;
 }
 .title {
   color: white;
@@ -132,7 +133,7 @@ span {
 .mainInfo__title::before {
   content: "";
   position: absolute;
-  bottom: 205px;
+  bottom: 250px;
   left: calc(50% - 60px);
   background-color: #08bc0c;
   width: 120px;
@@ -153,20 +154,20 @@ span {
   padding: 4rem;
 }
 
-.projectInf{
-  padding: 3rem;
-}
-
-.projectInf-1{
-  padding: 0rem 3rem 0rem 3rem;
+.info-project{
+  padding:5rem;
 }
 
 .tag{
   text-decoration: underline;
-  padding: 3rem;
+  
 }
 .tagIcon{
   color:white;
+}
+
+.projectInf-2{
+  text-align: justify;
 }
 
 .button-det{
@@ -195,7 +196,7 @@ span {
 /*CLIENTS*/
 .contenedor-principal{
   width: 100%;
-  height: 1000px;
+  height: 1300px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -203,14 +204,16 @@ span {
   margin: auto;
   background-color: #28343c;
 }
-
+.text-sub{
+  color:#08bc0c;
+}
 .clientName{
   color:white;
   padding: 30px;
 }
 
 .clientText{
-  padding-top: 20rem;
+  padding: 30rem 2rem 0rem 2rem
   
 }
 
@@ -253,41 +256,58 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
-.icon{
-  color:#08bc0c;
-  font-size: 3rem;
+.icon{   
+color:#08bc0c;
+font-size: 3rem;   
+position: absolute;   
+right: 48vw;  
+margin-bottom: 15vh;
+font-size: 5rem;
+ }
   
-}
+
 
 .copyright {
   margin-left: 10px;
-  color:rgb(192, 189, 189)
+  color:rgb(192, 189, 189);
+  font-size: 1rem;
 }
 
 .linksfooter {
   color: #08bc0c;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-left: 15rem;
   min-width: 300px;
+  font-size: 1rem;
 }
 .facebook{
   color:blue;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 .twitter{
   color:turquoise;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 .linkedin{
   color:rgb(65, 126, 149);
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 .youtube{
   color:rgb(109, 51, 61);
+  margin-right: 2rem;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 .social {
   display: flex;
@@ -295,6 +315,12 @@ footer {
   justify-content: space-evenly;
   justify-content: space-between;
   min-width: 300px;
+  margin-left: 2rem;
+  font-size: 1rem;
+}
+
+.spanFooter{
+  font-size: 1rem;
 }
 
 .Hero {

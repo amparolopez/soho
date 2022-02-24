@@ -7,11 +7,11 @@ const Footer = () => {
     <>
     <div className="footerCont">
       <footer>
-      <div>
-      <p className="icon"><MdAddLocation /> </p>
+      <div className="icon">
+        <MdAddLocation />
       </div>
         <div className="copyright">
-          <p> &copy; 2017 <span>SOHO internet+humana</span> </p> 
+          <p> &copy; 2017 <span className="spanFooter">SOHO internet+humana</span> </p> 
         </div>  
         <div className="linksfooter">
           <p> Visítanos</p> 

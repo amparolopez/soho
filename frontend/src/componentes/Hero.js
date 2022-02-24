@@ -9,7 +9,7 @@ const Hero = () => {
     <>
       <Container fluid className="maintext">
         <header>
-          <Navbar color="white" expand="md" fixed="top">
+          <Navbar color="white" expand="md">
             <Container>
               <img className="logo" src={require("../assets/logo-soho.png")} />
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
