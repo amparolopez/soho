@@ -25,29 +25,31 @@ const Info = () => {
               backgroundColor: "#40444c",
             }}
           >
-            <h2>Estrategia, usabilidad & ux </h2>
-            <p>
+            <h2 className="titleInfo">Estrategia, usabilidad & ux </h2>
+            <p className="infoText">
               Te ofrecemos excelente usabilidad y experiencia del usuario en tu
               proyecto, junto a una visión innovadora
             </p>
           </Col>
           <Col className="cardInfo" style={{backgroundColor: "#181c24"}}>
-            <h2>Mejoramos la experiencia</h2>
-            <p>
+            <h2 className="titleInfo">Mejoramos la experiencia</h2>
+            <p className="infoText">
               Tangibilizamos tu proyecto digital a través de un diseño centrado
               en el usuario y técnicas avanzadas
             </p>
           </Col>
           <Col className="cardInfo" style={{backgroundColor: "#202a36"}}>
-            <h2>Medición continua de objetivos</h2>
-            <p>
+            <h2 className="titleInfo">Medición continua de objetivos</h2>
+            <p className="infoText">
               Implementación, testing con usuarios y medición continua son
               necesarias para garantizar el éxito de tu proyecto
             </p>
           </Col>
         </div>
-        <div className="proyectos">
-          <h1>Proyectos destacados</h1>
+        <div className="projects">
+          <h1 className="mainProjects__title">
+            Proyectos destacados
+          </h1>
           <p>
             {" "}
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a felis

@@ -6,6 +6,8 @@ const projectSchema = new mongoose.Schema({
   description: {type: String, required: true},
   tag: [{type: String, required: true}],
   img: { type: String, required: true},
+  bgColor: {type: String, required:true},
+  button: {type:String, required:true}
   
 
 })

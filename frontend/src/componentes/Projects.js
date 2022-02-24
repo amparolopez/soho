@@ -15,7 +15,7 @@ console.log(projects)
 
   return (
     <>
-    {projects.map(project=> <Project data={project}/>)}
+    {projects?.map((project, index)=> <Project data={project} index={index}/>)}
     </>
   );
 };

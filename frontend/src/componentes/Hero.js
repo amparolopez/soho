@@ -1,6 +1,7 @@
 import React from "react"
 import "../App.css"
 import {Navbar, Nav, Container} from "react-bootstrap"
+import { FiRadio } from 'react-icons/fi';
 import logo from "../assets/logo-soho.png"
 
 const Hero = () => {
@@ -43,7 +44,8 @@ const Hero = () => {
           <button className="calltoa">HABLEMOS DE TU PROYECTO</button>
         </Container>
       </Container>
-      <div class="event" dark>
+      <div className="event" dark>
+        <p className="iconhero"><FiRadio /></p>
         <p className="event-text">
           EN DIRECTO · <span>SOHO está presente en el </span>
           <span>DIGITALBANK MONTEVIDEO.</span>{" "}

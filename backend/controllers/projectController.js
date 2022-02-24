@@ -5,22 +5,24 @@ const projectController = {
     let projects;
     let error = null;
     try{
-      projects = await Project.find()
+      // projects = await Project.find()
+      Project.find().then((response)=>
+      res.json({
+        answer: error ? 'ERROR' : response,
+        success: error ? false : true,
+        error : error
+      })
+      )
+      console.log(projects)
     }catch (error){
       error=error
       console.error(error)
     }
-    res.json({
-      answer: error ? 'ERROR' : projects,
-      success: error ? false : true,
-      error : error
-    })
   },
   postAProject : (req, res) =>{
-    console.log("holajuancalo")
 
-    const {companyName, title, description, tag, img} = req.body;
-    new Project ({companyName, title, description, tag, img}).save()
+    const {companyName, title, description, tag, img, bgColor, button} = req.body;
+    new Project ({companyName, title, description, tag, img, bgColor, button}).save()
     .then((answer)=>{
       console.log(answer)
       res.json({answer})
@@ -47,7 +49,7 @@ const projectController = {
     console.log(project);
     
     try{
-    updateProject = await Project.findByIdAndUpdate({_id:id}, city, {new:true})
+    updateProject = await Project.findByIdAndUpdate({_id:id}, project, {new:true})
     console.log(updateProject)
     }catch (error){
       console.error(error)
