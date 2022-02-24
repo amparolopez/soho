@@ -1,4 +1,3 @@
-import { isTrivialHref } from "@restart/ui/esm/Anchor"
 import React from "react"
 
 
